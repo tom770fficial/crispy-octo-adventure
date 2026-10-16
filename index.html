@@ -141,7 +141,43 @@ html {
 .profile p {
   margin: 10px 0;
 }
-  </style>.hero-image {
+ 
+.skill {
+  margin-top: 18px;
+}
+
+.skill-bar {
+  height: 10px;
+  background: #263754;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  animation: fillIn 1.5s ease-out;
+}
+
+.html-fill {
+  width: 45%;
+}
+
+.css-fill {
+  width: 30%;
+}
+
+.problem-fill {
+  width: 40%;
+}
+
+@keyframes fillIn {
+  from {
+    width: 0;
+  }
+}
+ </style>.hero-image {
   width: 100%;
   max-width: 320px;
   height: 190px;
